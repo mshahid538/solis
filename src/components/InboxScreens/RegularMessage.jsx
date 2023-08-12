@@ -59,7 +59,7 @@ const RegularMessage = () => {
       <Grid xs={2} sm={4} md={2}>
           <hr style={{ width: "500px" ,marginTop:"300px"}} />
       </Grid>
-      <Grid>
+      <Grid xs={2} sm={4} md={2}>
         <TextFields />
        </Grid>
     </> 

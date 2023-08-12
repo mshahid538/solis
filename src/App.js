@@ -6,6 +6,7 @@ import Demographics from './pages/Reports/Demographics';
 import AcitivityLog from './pages/Reports/AcitivityLog';
 import Revenue from './pages/Reports/Revenue';
 import Communicaitons from './pages/Configurations/Communications'
+import CommunicationPromo from './pages/Configurations/CommunicationPromo';
 import Inbox from './pages/Configurations/Inbox';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Revenue" element={<Revenue />} />
           <Route path="/Inbox" element={<Inbox />} />
           <Route path="/communications" element={<Communicaitons />} />
+          <Route path="/communications/communicationspromo" element={<CommunicationPromo />} />
         </Routes>
       </Sidebar>
     </BrowserRouter>
