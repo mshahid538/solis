@@ -8,7 +8,7 @@ import Block from '../../images/Block.svg'
 const ModalCards = () => {
   return (
     <>
-      <Grid
+      <Grid className="model_card"
         style={{
           //   backgroundColor: "red",
           display: "flex",
@@ -17,32 +17,32 @@ const ModalCards = () => {
           fontSize: "18px",
         }}
       >
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          
+          <Grid 
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -55,7 +55,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -73,7 +73,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -99,7 +99,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -111,7 +111,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",
@@ -157,32 +157,31 @@ const ModalCards = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          <Grid className="model_card"
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -195,7 +194,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -213,7 +212,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -239,7 +238,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -251,7 +250,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",
@@ -297,32 +296,31 @@ const ModalCards = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          <Grid className="model_card"
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -335,7 +333,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -353,7 +351,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -379,7 +377,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -391,7 +389,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",
@@ -447,32 +445,31 @@ const ModalCards = () => {
           fontSize: "18px",
         }}
       >
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          <Grid className="model_card"
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -485,7 +482,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -503,7 +500,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -529,7 +526,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -541,7 +538,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",
@@ -587,32 +584,31 @@ const ModalCards = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          <Grid className="model_card"
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -625,7 +621,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -643,7 +639,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -669,7 +665,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -681,7 +677,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",
@@ -727,32 +723,31 @@ const ModalCards = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid
+        <Grid 
           style={{
             backgroundColor: "#D4D6D8 ",
             border: "solid 1px gray",
-            height: "390px",
+            height: "367px",
             borderRadius: "16px",
           }}
         >
-          <Grid
+          <Grid className="model_card"
             xs={2}
             sm={4}
             md={2}
             style={{
               // backgroundColor: "#E5EDFF",
-              padding: "20px",
-              width: "314.33px",
-
-              height: "390px",
+              padding: "10px",
+              width: "312px",
+              // height: "390px",
             }}
           >
             <span
               style={{
                 backgroundColor: "black",
                 color: "white",
-                width: "63px",
-                height: "24px",
+                // width: "63px",
+                // height: "24px",
                 padding: "4px 8px 4px 8px",
                 borderRadius: "4px",
               }}
@@ -765,7 +760,7 @@ const ModalCards = () => {
               style={{
                 backgroundColor: "#72767D",
                 height: "86px",
-                width: "279.67px",
+                // width: "279.67px",
               }}
             ></Grid>
             <br />
@@ -783,7 +778,7 @@ const ModalCards = () => {
               <img src={Icon} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -809,7 +804,7 @@ const ModalCards = () => {
               <img src={People} alt="" />
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   marginLeft: "5px",
@@ -821,7 +816,7 @@ const ModalCards = () => {
             <Grid xs={2} sm={4} md={2} display={"flex"}>
               <span
                 style={{
-                  fontWeight: "500",
+                  // fontWeight: "500",
                   fontSize: "16px",
                   color: "#72767D",
                   //   marginLeft: "5px",

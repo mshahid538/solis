@@ -7,7 +7,7 @@ import Divider from '@mui/material/Divider';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const StyledMenu = styled((props) => (
-  <Menu
+  <Menu className='dropdown'
     elevation={0}
     anchorOrigin={{
       vertical: 'bottom',
@@ -59,7 +59,7 @@ const DropDown = () => {
 
   return (
     <div>
-      <Button
+      <Button style={{backgroundColor:"white",color:"black",padding:"0px" }}
         id="demo-customized-button"
         aria-controls={open ? 'demo-customized-menu' : undefined}
         aria-haspopup="true"

@@ -20,19 +20,20 @@ const Cards = () => {
         style={{
           //   backgroundColor: "red",
           display: "flex",
+          // gap: "281px",
           justifyContent: "space-between",
           marginTop: "16px",
-          fontSize: "18px",
         }}
       >
         <Grid
+          className="revenue_cards"
           xs={2}
           sm={4}
           md={2}
           style={{
             backgroundColor: "#E5EDFF",
-            padding: "20px",
-            width: "314.33px",
+            padding: "12px",
+            // width: "314.33px",
             borderRadius: "16px",
           }}
         >
@@ -46,14 +47,15 @@ const Cards = () => {
           usual
         </Grid>
         <Grid
+          className="revenue_cards"
           xs={2}
           sm={4}
           md={2}
           style={{
             backgroundColor: "#E5EDFF",
-            padding: "20px",
-            width: "314.33px",
-            fontSize: "18px",
+            padding: "12px",
+            // width: "314.33px",
+            fontSize: "16px",
             borderRadius: "16px",
           }}
         >
@@ -67,14 +69,15 @@ const Cards = () => {
           usual
         </Grid>
         <Grid
+          className="revenue_cards"
           xs={2}
           sm={4}
           md={2}
           style={{
             backgroundColor: "#E5EDFF",
-            padding: "20px",
-            width: "314.33px",
-            fontSize: "18px",
+            padding: "12px",
+            // width: "314.33px",
+            fontSize: "16px",
             borderRadius: "16px",
           }}
         >
@@ -88,8 +91,11 @@ const Cards = () => {
           usual
         </Grid>
       </Grid>
-      <div style={{marginLeft:"90%",marginTop:"15px "}}>
-       Filter By<DropDown />
+      <div style={{ marginLeft: "90%", marginTop: "15px " }}>
+        <span className="revenue_filter" style={{display:"flex"}}> 
+          <span className="reveneue_para" >Filter By</span>
+          <DropDown />
+        </span>
       </div>
     </>
   );

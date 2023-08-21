@@ -11,7 +11,7 @@ import InboxTable from '../tables/InboxTable';
 
 const InboxTabs = () => {
   return (
-    <Tabs aria-label="Basic tabs" defaultValue={0}>
+    <Tabs aria-label="Basic tabs" defaultValue={0} className='inbox_tabs' >
       <TabList>
         <Tab>Regular Message</Tab>
         <Tab>Report Message</Tab>

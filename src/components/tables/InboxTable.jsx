@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import downarrrow from "../../images/downarrow.svg";
 import Table from "@mui/joy/Table";
-import DropDown from "../../menu/DropDown";
-import Search from "../../components/header/Search";
 import { Grid } from "@mui/joy";
 import BasicPagination from "../pagination/BasicPagination";
 import send from "../../images/send.svg";

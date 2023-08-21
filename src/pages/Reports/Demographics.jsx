@@ -1,11 +1,16 @@
 import React from 'react'
 import TabsBasic from '../../components/tabs/tabs'
+import Sidebar from '../../components/sidenav/Sidebar'
+import Header from '../../components/header/Header'
 
 const Demographics = () => {
   return (
     <>
-    <h3 style={{paddingBottom:"40px"}}>Demographics</h3>
+    <Header />
+    <Sidebar >
+    <h3 >Demographics</h3>
     <TabsBasic/>
+    </Sidebar>
     </>
     
   )

@@ -9,7 +9,7 @@
         <Grid xs={2}
             sm={4}
             md={2}
-            style={{display:"flex",justifyContent:"space-between",width:"30%"}}>
+            style={{display:"flex",width:"314px"}}>
         <Grid
             xs={2}
             sm={4}

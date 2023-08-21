@@ -1,16 +1,16 @@
-import * as React from 'react';
-import Tabs from '@mui/joy/Tabs';
-import TabList from '@mui/joy/TabList';
-import Tab from '@mui/joy/Tab';
-import TabPanel from '@mui/joy/TabPanel';
-import { Grid } from '@mui/joy';
-import DropDown from '../../menu/DropDown';
+import * as React from "react";
+import Tabs from "@mui/joy/Tabs";
+import TabList from "@mui/joy/TabList";
+import Tab from "@mui/joy/Tab";
+import TabPanel from "@mui/joy/TabPanel";
+import { Grid } from "@mui/joy";
+import DropDown from "../../menu/DropDown";
 // import Filter from '../filter/Filter'
-import BasicTable from '../tables/accountsTable';
+import BasicTable from "../tables/accountsTable";
 export default function TabsBasic() {
   return (
-    <Tabs aria-label="Basic tabs" defaultValue={0}>
-      <TabList>
+    <Tabs>
+      <TabList className="demographcis">
         <Tab>Accounts</Tab>
         <Tab>Age</Tab>
         <Tab>Location</Tab>
@@ -18,28 +18,30 @@ export default function TabsBasic() {
         <Tab>Association</Tab>
         <Tab>Business</Tab>
       </TabList>
-      <Grid display={"flex"} marginTop={"10px"} marginLeft={"90%"} >
-        Filter by <DropDown/>
+      <Grid display={"flex"} marginTop={"10px"} marginLeft={"93%"}>
+        <span className="demofilter">
+          Filter by <DropDown />
+        </span>
       </Grid>
       {/* <Filter/> */}
       {/*  */}
-      <TabPanel value={0}>
-      <BasicTable/>
+      <TabPanel value={0} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
-      <TabPanel value={1}>
-      <BasicTable/>
+      <TabPanel value={1} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
-      <TabPanel value={2}>
-      <BasicTable/>
+      <TabPanel value={2} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
-      <TabPanel value={3}>
-      <BasicTable/>
+      <TabPanel value={3} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
-      <TabPanel value={4}>
-      <BasicTable/>
+      <TabPanel value={4} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
-      <TabPanel value={5}>
-      <BasicTable/>
+      <TabPanel value={5} className="demo_tabs">
+        <BasicTable />
       </TabPanel>
     </Tabs>
   );

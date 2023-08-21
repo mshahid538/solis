@@ -12,17 +12,22 @@ const Profile = () => {
       </Grid>
       <br />
       <Grid style={{ display: "flex" }}>
-        <Grid xs={2} sm={4} md={2}>
+        <Grid
+          xs={2}
+          sm={4}
+          md={2}
+          style={{ marginTop: "15px", marginRight: "5px" }}
+        >
           <img src={person} alt="person" />
         </Grid>
         <Grid xs={2} sm={4} md={2}>
           <p
             style={{
               backgroundColor: "#F4F4F7",
-              width: "397px",
-              height: "55px",
-              padding: "12px 18px 6px 18px",
-              gap: "4px",
+              height: "45px",
+              width: "320px",
+              padding: "10px 16px 6px 14px",
+              // gap:"4px",
               borderRadius: "0px 16px 16px 16px",
             }}
           >
@@ -33,15 +38,20 @@ const Profile = () => {
         <Grid xs={2} sm={4} md={2} style={{ marginTop: "8px" }}>
           <img
             src={linkexternal}
-            alt=""
-            style={{ width: "20px", height: "20px" }}
+            alt="linkexternal"
+            style={{ width: "20px", height: "20px", marginTop: "30px" }}
           />
         </Grid>
-        <span style={{ color: "#006ACC" }}>View Events</span>
+        <span
+          style={{ color: "#006ACC", marginTop: "30px" }}
+          className="profile_view_icon"
+        >
+          View Events
+        </span>
       </Grid>
 
-      <Grid xs={2} sm={4} md={2}>
-        <hr style={{ width: "500px", marginTop: "300px" }} />
+      <Grid xs={2} sm={4} md={2} style={{ width: "300px", marginTop: "200px" }}>
+        <hr className="regular_message_hr"/>
       </Grid>
       <Grid xs={2} sm={4} md={2}>
         <TextFields />

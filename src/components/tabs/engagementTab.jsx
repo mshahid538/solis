@@ -14,22 +14,24 @@ import Patricipations from "../tables/Patricipations";
 
 export default function TabsBasic() {
   return (
-    <Tabs aria-label="Basic tabs" defaultValue={0}>
-      <TabList>
+    <Tabs aria-label="Basic tabs" defaultValue={0} style={{marginTop:"20px"}} >
+      <TabList className="activity" >
         <Tab>Engagement</Tab>
         <Tab>Conversions</Tab>
         <Tab>Activity</Tab>
         <Tab>Participations</Tab>
       </TabList>
-      <Grid display={"flex"} marginTop={"10px"} marginLeft={"90%"}>
-        <DropDown />
+      <Grid  marginTop={"10px"} marginLeft={"91%"}>
+       <span style={{display:"flex"}} className="activity_filter" >
+        <span className="activity_para" >Filter by</span><DropDown />
+        </span> 
       </Grid>
       {/* <Filter/> */}
       {/*  */}
-      <TabPanel value={0}><BasicTable/></TabPanel>
-      <TabPanel value={1}><Conversion/></TabPanel>
-      <TabPanel value={2}><Activity/></TabPanel>
-      <TabPanel value={3}><Patricipations/></TabPanel>
+      <TabPanel value={0} className="activity_tabs" ><BasicTable/></TabPanel>
+      <TabPanel value={1} className="activity_tabs" ><Conversion/></TabPanel>
+      <TabPanel value={2} className="activity_tabs" ><Activity/></TabPanel>
+      <TabPanel value={3} className="activity_tabs" ><Patricipations/></TabPanel>
     </Tabs>
   );
 }

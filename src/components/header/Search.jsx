@@ -1,23 +1,31 @@
-import * as React from 'react';
-import Paper from '@mui/material/Paper';
-import InputBase from '@mui/material/InputBase';
-import IconButton from '@mui/material/IconButton';
-import SearchIcon from '@mui/icons-material/Search';
+import * as React from "react";
+import InputBase from "@mui/material/InputBase";
+import IconButton from "@mui/material/IconButton";
+import SearchIcon from "@mui/icons-material/Search";
+import { Grid } from "@mui/joy";
 
 export default function CustomizedInputBase() {
   return (
-    <Paper
-      component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 600 }}
+    <Grid
+    xs={2}
+    sm={4}
+    md={4}
+    style={{
+      width: "330px",
+      height: "34px",
+      borderRadius: "7px",
+      backgroundColor: "#F5F5F5",
+      // marginBottom:"20px",
+    }}
+    // 
     >
-      <IconButton type="button" sx={{ p: '10px' }} aria-label="search">
+      <IconButton className="main_search">
         <SearchIcon />
       </IconButton>
-      <InputBase
-        sx={{ ml: 1, flex: 1 }}
-        placeholder="Search Google Maps"
-        inputProps={{ 'aria-label': 'search google maps' }}
+      <InputBase 
+        placeholder="Search " className="navbar_search"
+        // inputProps={{ "aria-label": "search google maps" }}
       />
-    </Paper>
+    </Grid>
   );
 }
