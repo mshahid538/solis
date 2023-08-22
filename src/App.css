@@ -25,30 +25,12 @@ main{
     align-items:center;
     padding:38px 15px;
 }
-/* .logo{
-    font-size: "20px";
-} */
-/* .bars{
-    display: flex;
-    font-size: 25px;
-    margin-left: 50px;
-    height: 28px;
-} */
 .link{
     margin-top: 8px;
     display: flex;
     color: #0f0e0e;
-    /* padding: 0px 12px;
-    gap: 15px; */
     transition: all 0.5s;
 }
-/* .link:hover{
-    background:lightskyblue;
-    color: #000;
-    transition: all 0.5s;
-    height: 28px;
-
-} */
 .sidenav_reports{
     color: #72767D;
     font-weight: 400;
@@ -60,7 +42,6 @@ main{
     background: #E5EDFF;
     color:#006ACC;
     border-radius: 50px;
-    
 }
 .nav_manage{
     color: #72767D;
@@ -216,6 +197,7 @@ main{
         display: none;
     }
     .model_card{
+        background-color: red;
         width: 100%;
     }
     .promo_box{
