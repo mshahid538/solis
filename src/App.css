@@ -49,6 +49,12 @@ main{
     height: 28px;
 
 } */
+.sidenav_reports{
+    color: #72767D;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
 .active{
     margin-top: "100px";
     background: #E5EDFF;
@@ -56,21 +62,30 @@ main{
     border-radius: 50px;
     
 }
+.nav_manage{
+    color: #72767D;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
 .icon, .link_text{
     /* margin-top: 100px; */
     font-size: 16px;
     /* margin-bottom: 6px; */
     padding: 6px;
-    
-
 }
+
 .filter{
     background-color:"black"
 }
 .border{
     border-right: #D4D6D8 solid;
 }
-
+.sidenav_manage{
+    background-color: white;
+    color: #72767D;
+}
 /* login */
 .title {
     text-align: center;
@@ -251,6 +266,12 @@ main{
     .inbox_table{
         /* background-color: #006ACC; */
         width:90%
+    }
+    .sidenav_reports{
+        display: none;
+    }
+    .nav_manage {
+        display: none;
     }
 }
 
