@@ -138,6 +138,9 @@ main{
     .demofilter{
         margin-left: -100px;
     }
+    .demo_para{
+        display: none;
+    }
     .activity{
         width: 85%;
     }

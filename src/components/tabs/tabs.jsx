@@ -20,7 +20,7 @@ export default function TabsBasic() {
       </TabList>
       <Grid marginTop={"10px"} marginLeft={"90%"}>
         <span style={{display:"flex"}} className="demofilter">
-         <span className="demo_filter" >Filter by</span><DropDown />
+         <span className="demo_para" >Filter by</span><DropDown />
         </span>
       </Grid>
       {/* <Filter/> */}
